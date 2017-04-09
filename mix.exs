@@ -30,6 +30,7 @@ defmodule Blog.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [{:postgrex, ">= 0.13.2"},
-     {:ecto, "~> 2.1"}]
+     {:ecto, "~> 2.1"},
+     {:poison, "~> 3.0"}]
   end
 end
